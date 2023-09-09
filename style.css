@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+p{
+    font-size: 20px;
+}
+
+input, textarea{
+    border: black;
+    width: 95%;
+    margin: 8px auto;
+    padding: 7px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    color: white;
+    background: orangered;
+    padding: 13px 20px;
+    font-size: 23px;
+    border: 3px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.submitMsg{
+    color: green;
+    font-size: 25px;
+}
